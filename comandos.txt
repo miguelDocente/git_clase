@@ -22,5 +22,5 @@ git status -> informacion de tu rama actual
 --ver historial de cambios
 git log 
 git log --oneline
-
+svsvd
 escapar del editor esc + :wq
