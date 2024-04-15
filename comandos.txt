@@ -15,12 +15,33 @@ crear archivo .gitignore
 
 
 *************************************************************
-git add . -> agregamos todos los archivos
-git add <nombre_archivo> - especificamos archivo
 git status -> informacion de tu rama actual
+git add . -> agregamos todos los archivos
+git add <nombre_archivo> -> especificamos archivo
+git commit -m "mensaje" -> realizar un commit en Git con un mensaje de confirmación
 
 --ver historial de cambios
 git log 
 git log --oneline
-svsvd
-escapar del editor esc + :wq
+
+--volver a cambios anteriores
+git checkout <hash_del_commit> -> te llevará al estado del repositorio en el momento de ese commit
+git revert <hash_del_commit> -> no elimina,agrega un nuevo commit que revierte esos cambios
+git reset --hard <hash_del_commit> -> elimina cualquier cambio que hayas realizado después de ese punto
+
+escapar del editor: "esc + :wq"
+***** RAMAS *****
+
+-Crear una nueva rama:
+git branch nombre_de_la_rama
+-Cambiar a una rama existente:
+git checkout nombre_de_la_rama
+-Crear y cambiar a una nueva rama en un solo comando:
+git checkout -b nombre_de_la_rama
+-Ver todas las ramas:
+git branch
+-Eliminar una rama:
+git branch -d nombre_de_la_rama
+-Fusionar una rama con la rama actual:
+git merge nombre_de_la_rama
+
