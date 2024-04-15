@@ -19,4 +19,8 @@ git add . -> agregamos todos los archivos
 git add <nombre_archivo> - especificamos archivo
 git status -> informacion de tu rama actual
 
+--ver historial de cambios
+git log 
+git log --oneline
 
+escapar del editor esc + :wq
