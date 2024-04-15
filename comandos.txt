@@ -1,0 +1,22 @@
+******* INICIO ********
+git init -> inicializamos un repositorio
+clear -> limpiamos consola
+
+git config --global user.name
+git config --global user.email
+--ver configuracion--
+git config --get user.name
+git config --get user.email 
+--configuración a nivel local,repositorio en el que estás trabajando--
+git config --local user.name
+git config --local user.email
+
+crear archivo .gitignore
+
+
+*************************************************************
+git add . -> agregamos todos los archivos
+git add <nombre_archivo> - especificamos archivo
+git status -> informacion de tu rama actual
+
+
